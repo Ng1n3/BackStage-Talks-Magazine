@@ -26,6 +26,7 @@ body {
     font-family: $font-primary;
     font-size: 1.5rem;
     line-height: 1.6;
+    transition: 500ms background-color;
 }
 
 ::-webkit-scrollbar {
