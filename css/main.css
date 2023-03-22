@@ -44,6 +44,71 @@ header .logo {
   text-decoration: underline;
 }
 
+.footer {
+  width: 30rem;
+  position: fixed;
+  bottom: 3rem;
+  left: 1.5rem;
+}
+.footer__p {
+  font-size: 1.8rem;
+}
+.footer__copyright {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+.footer__copyright a {
+  color: black;
+}
+.footer__copyright a :hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+.footer__contact {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.footer__contact a {
+  color: black;
+}
+.footer__contact a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.email {
+  position: absolute;
+  top: 2rem;
+  right: 1.5rem;
+  font-size: 1.8rem;
+}
+.email a {
+  color: black;
+  text-decoration: none;
+}
+.email a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.issue-reference {
+  position: fixed;
+  bottom: 4rem;
+  right: 1.5rem;
+}
+.issue-reference li {
+  list-style-type: none;
+}
+.issue-reference li a {
+  font-size: 1.8rem;
+  color: black;
+  text-decoration: none;
+}
+.issue-reference li a:hover {
+  text-decoration: underline;
+}
+
 *,
 *::after,
 *::before {
