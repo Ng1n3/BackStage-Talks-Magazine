@@ -1,0 +1,40 @@
+// NOTE: COLOR
+$color-primary-1: #00c1b5;
+$color-primary-2: #ff651a;
+$color-primary-3: #ffbe00;
+$color-primary-4: #1d3fbb;
+$color-primary-5: #e30512;
+$color-primary-6: #e568ac;
+$color-white: #fff;
+$color-black: #000;
+
+//NOTE: Font-Family
+$font-primary: 'Roboto', san-serif;
+//NOTE: Font-weight
+$-font-weight-sm: 300;
+$font-weight-nm: 400;
+$font-weight-bd: 500;
+$font-weight-sb: 700;
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: $font-primary;
+    font-size: 1.5rem;
+    line-height: 1.6;
+}
+
+::-webkit-scrollbar {
+    width: 1rem;
+  }

@@ -1,0 +1,43 @@
+.section-container {
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+	height: 100vh;
+	scroll-behavior: smooth;
+	overflow: auto;
+	scroll-snap-type: y mandatory;
+}
+
+.issue {
+	width: 100%;
+	height: 100vh;
+	scroll-snap-align: start;
+
+	&__number {
+		font-size: 1.8rem;
+		margin-bottom: 1.5rem;
+	}
+
+	&__store {
+		font-size: 1.5rem;
+		font-weight: $font-weight-sb;
+		a {
+			text-decoration: none;
+			color: $color-primary-6;
+			&:hover {
+				text-decoration: underline;
+				cursor: pointer;
+			}
+		}
+	}
+
+	a {
+		font-size: 1.5rem;
+		text-decoration: none;
+		font-weight: $font-weight-sb;
+		color: $color-primary-6;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
