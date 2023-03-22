@@ -1,0 +1,22 @@
+{
+  "name": "backstage-talks-magazine",
+  "version": "1.0.0",
+  "description": "webpage for BackStage Talks magazine",
+  "main": "app.js",
+  "scripts": {
+    "compile:sass": "node-sass main.scss css/main.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ng1n3/BackStage-Talks-Magazine.git"
+  },
+  "author": "34Z1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ng1n3/BackStage-Talks-Magazine/issues"
+  },
+  "homepage": "https://github.com/Ng1n3/BackStage-Talks-Magazine#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
