@@ -136,6 +136,10 @@ body {
   width: 1rem;
 }
 
+.bold {
+  font-weight: 700;
+}
+
 .issue img {
   width: 42rem;
 }
