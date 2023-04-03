@@ -1,4 +1,4 @@
-
+use 'strict'
 const callback = (entries, observer) => {
 
   entries.forEach(entry => {
