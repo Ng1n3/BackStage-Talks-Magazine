@@ -4,12 +4,6 @@ const callback = (entries, observer) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       document.body.style.backgroundColor = entry.target.dataset.color;
-      // selectedStores.style.color = '#fff';
-      if(document.body.style.backgroundColor === "#e30512") {
-        selectedStores.style.color= '#fff';
-      } else {
-        selectedStores.style.color = '#e568ac';
-      }
     }
   });
 };
