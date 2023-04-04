@@ -149,3 +149,6 @@ header .logo {
   @media only screen and (max-width: 31.25em) {
     .issue img {
       width: 35rem; } }
+  @media only screen and (max-width: 25em) {
+    .issue img {
+      width: 28rem; } }

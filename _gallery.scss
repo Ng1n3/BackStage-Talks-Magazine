@@ -5,5 +5,9 @@
         @media only screen and (max-width: $bp-tiny) {
             width: 35rem;
         }
+
+        @media only screen and (max-width: $bp-super-tiny) {
+            width: 28rem;
+        }
     }
 }
