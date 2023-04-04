@@ -94,13 +94,14 @@ header .logo {
     .footer {
       width: 100%;
       margin: 0 auto;
-      padding: 1rem; } }
+      padding: 1rem;
+      line-height: 1.4; } }
   .footer__p {
     font-size: 1.8rem; }
   .footer__copyright {
     font-size: 1.2rem;
     font-weight: 300;
-    margin-bottom: 2rem; }
+    margin-bottom: 1rem; }
     .footer__copyright a {
       color: black; }
       .footer__copyright a :hover {
