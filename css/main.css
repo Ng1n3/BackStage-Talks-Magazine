@@ -82,14 +82,14 @@ header .logo {
   left: 1.5rem; }
   @media only screen and (max-width: 43.75em) {
     .footer {
-      width: 100%;
-      margin: 1rem;
+      max-width: 30rem;
+      margin: 1rem 0 0 0;
       padding: 1rem;
       text-align: center;
       display: flex;
       flex-direction: column;
       align-items: center;
-      bottom: .5rem; } }
+      bottom: .1rem; } }
   .footer__p {
     font-size: 1.8rem; }
   .footer__copyright {
