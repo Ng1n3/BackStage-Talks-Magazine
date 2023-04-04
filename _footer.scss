@@ -5,14 +5,20 @@
   left: 1.5rem;
 
   @media only screen and (max-width: $bp-small) {
-    max-width: 30rem;
-    margin: 1rem 0 0 0;
+    margin: 0 auto;
     padding: 1rem;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    bottom: .1rem
+    bottom: .1rem;
+    left: 0;
+  }
+
+  @media only screen and (max-width: $bp-super-tiny) {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
   }
 
   &__p {
