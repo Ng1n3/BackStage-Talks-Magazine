@@ -90,7 +90,7 @@ header .logo {
       align-items: center;
       bottom: .1rem;
       left: 0; } }
-  @media only screen and (max-width: 25em) {
+  @media only screen and (max-width: 31.25em) {
     .footer {
       width: 100%;
       margin: 0 auto;
