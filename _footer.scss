@@ -5,10 +5,14 @@
   left: 1.5rem;
 
   @media only screen and (max-width: $bp-small) {
-    width: 80%;
-    margin: 2rem;
+    width: 90%;
+    margin: 1rem;
+    padding: 2rem;
     margin-bottom: 0;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   &__p {
@@ -55,7 +59,7 @@
 @media only screen and (max-width: $bp-tiny) {
   position: static;
   text-align: center;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
   a {
