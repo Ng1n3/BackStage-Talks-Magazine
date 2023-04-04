@@ -6,12 +6,17 @@
   scroll-behavior: smooth;
   overflow: auto;
   scroll-snap-type: y mandatory;
+  transition: all 700ms ease 0ms;
 }
 
 .issue {
   width: 100%;
   height: 100vh;
   scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   &__number {
     font-size: 1.8rem;

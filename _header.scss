@@ -6,3 +6,9 @@ header .logo {
     position: fixed;
 
 }
+
+header {
+    @media only screen and (max-width:$bp-small) {
+        position:static;
+    }
+}
